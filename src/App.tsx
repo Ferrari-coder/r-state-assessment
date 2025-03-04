@@ -66,7 +66,7 @@ const Dashboard = () => {
 
           <div className="flex gap-20 my-12">
             <img
-              src="/src/assets/scratching-head.svg"
+              src="/scratching-head.svg"
               alt="girl"
               className="w-40 hidden md:block"
             />

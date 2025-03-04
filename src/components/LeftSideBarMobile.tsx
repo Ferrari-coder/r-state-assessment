@@ -15,10 +15,10 @@ const LeftSidebarMobile: FC<Props> = ({ sidebar, setSideBar }) => {
 
   // Navigation links with corresponding icons
   const navLinks = [
-    { name: "Home", icon: "/src/assets/home.svg" },
-    { name: "Activity", icon: "/src/assets/bolt.svg" },
-    { name: "Discover", icon: "/src/assets/compass.svg" },
-    { name: "Settings", icon: "/src/assets/settings.svg" },
+    { name: "Home", icon: "/home.svg" },
+    { name: "Activity", icon: "/bolt.svg" },
+    { name: "Discover", icon: "/compass.svg" },
+    { name: "Settings", icon: "/settings.svg" },
   ];
 
   // Function to close the sidebar
@@ -41,7 +41,7 @@ const LeftSidebarMobile: FC<Props> = ({ sidebar, setSideBar }) => {
         {/* Logo */}
         <div className="flex items-center justify-center">
           <img
-            src="/src/assets/logo.svg"
+            src="/logo.svg"
             alt="logo"
             className="w-[100px] h-[100px] mb-10"
           />

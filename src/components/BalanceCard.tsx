@@ -61,14 +61,14 @@ const BalanceCard = () => {
               {/* Balance Controls (Minus, Amount, Plus) */}
               <div className="flex items-center gap-2">
                 <img
-                  src="/src/assets/minus.svg"
+                  src="/minus.svg"
                   alt="minus"
                   className="w-8 cursor-pointer"
                   onClick={() => handleDecrement(index)}
                 />
                 <p className="text-[#404650] text-[16px]">${account.amount}</p>
                 <img
-                  src="/src/assets/plus.svg"
+                  src="/plus.svg"
                   alt="plus"
                   className="w-8 cursor-pointer"
                   onClick={() => handleIncrement(index)}
